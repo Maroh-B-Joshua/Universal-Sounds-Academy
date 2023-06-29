@@ -1,0 +1,47 @@
+footer{
+  position: relative;
+  bottom: 0 ;
+  left: 0;
+  right: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+footer div{
+  padding: 14px 16px;
+}
+
+footer div a{ 
+  text-decoration: none;
+  color: #333;
+}
+
+footer div p{
+  padding: 1rem;
+} 
+
+.social-icons{
+  font-size: 3rem;
+  display: inline-block;
+}
+
+.social-icons a{
+  color: #2e63f7;
+  padding: 12px;
+}
+
+.social-icons a:hover,
+.social-icons a:focus{
+  color:#6d90ee ;
+}
+ 
+.pp:hover,
+.pp:focus{
+color: crimson;
+}
+
+@media screen and (min-width:700px){
+  footer{
+    grid-template-columns: repeat(3, 1fr); 
+  }
+}
